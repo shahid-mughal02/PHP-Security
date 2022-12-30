@@ -1,0 +1,16 @@
+## Secutiry
+
+-Avoid Directory Listing i.e Indexes
+Options -Indexes
+
+- Always Use .php extensions
+    .json, .inc, .txt => .php
+
+- PHP Injection
+It maybe in the urls using $_GET varirables
+It maybe Injected using in the form of images
+ for verify image crop them before upload to server
+  avoid for run user upload file mean save the folder
+  in a variable from where you are including files
+
+-Use Single File for website
