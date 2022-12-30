@@ -12,12 +12,14 @@
 - [x] Error Reporting
 - [x] Forced Browsing
 - [x] Path Traversal
-- [x] Data Parameter Delimeter
+- [x] Data Parameter Delimeters i.e key:value key|value
 - [x] SQL/PHP injection attacks
 - [x] XSS Attacks
 - [x] Session Hijack / Fixation
 - [x] Phishing
-- [x] General Security PRinciples
-- [x] Security Prevention Completed :tada:
+- [x] General Security Principles
+- [x] Security Prevention Completed
 
 ## ***Don't Trust User Data*** :+1:
+
+## **Hooray! Completed**  :tada:
