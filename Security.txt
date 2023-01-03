@@ -14,3 +14,23 @@ It maybe Injected using in the form of images
   in a variable from where you are including files
 
 -Use Single File for website
+
+-Post SQl Injection
+#Using input field
+  Put addslashes()/mysqli_real_escape_string to avoid this
+  john@yahoo.com' OR '1=1#
+  is_numeric() to check integer
+  $var = (int)($var);
+
+-Get SQL Injection
+#By modifying Url
+union select 1,2,load_file("c:/xampp/php/php.ini"), 4
+
+-Use Prepared Statements
+#Using PDO instead of Mysql
+
+-Cross Site Scripting (XSS)
+It may be a through url
+Sanitize data before echoing
+htmlspecialchars($str);
+htmlentities($str);
